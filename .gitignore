@@ -1,0 +1,27 @@
+###########
+# backend #
+###########
+
+# python virtual environment
+venv/
+
+# python bytecode
+*.pyc
+__pycache__/
+
+# vscode settings
+.vscode/
+
+# flask files
+instance/
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+dist/
+build/
+
+############
+# frontend #
+############
