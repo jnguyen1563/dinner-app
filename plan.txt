@@ -1,0 +1,34 @@
+###########
+# Backend #
+###########
+
+__init__.py
+    -create_app
+    -
+auth.py
+    -routing for login related pages
+    -handle some logic with authentication
+views.py
+    -routing for main app pages
+models.py
+    -define database models with SQLAlchemy
+
+Database:
+    Users:
+        -user_id - Primary
+        -user_name
+        -password?
+            -generate_password_hash
+    Calendar:
+        -post_id - Primary
+        -time
+        -user_id - Foreign
+        -body
+    Grocery List:
+        -post_id - Primary
+        -item_name
+        -user_id - Foreign
+        -descriptions
+    
+        
+        

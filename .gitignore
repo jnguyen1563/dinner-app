@@ -22,6 +22,9 @@ htmlcov/
 dist/
 build/
 
+# environment variables
+.env
+
 ############
 # frontend #
 ############
