@@ -2,6 +2,28 @@
 # Backend #
 ###########
 
+Project structure:
+>app
+    >templates
+    >static
+    >main
+        __init__.py
+        errors.py
+        forms.py
+        views.py
+    __init__.py
+    email.py
+    models.py
+>tests
+    __init__.py
+    test*.py
+.gitignore
+README.md
+config.py
+manage.py
+>venv
+requirements.txt
+
 __init__.py
     -create_app
     -
